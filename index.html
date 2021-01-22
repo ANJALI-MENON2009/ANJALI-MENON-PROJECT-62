@@ -1,0 +1,123 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"> </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title> Anjali's Image Gallery </title>
+</head>
+
+<body>
+
+    <ul class="menu">
+        <li class="links"> <a href="#slideshow"> Slideshow </a> </li>
+        <li class="links"> <a href="#grid"> Grid View </a> </li>
+        <center>
+            <img id="famimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVBvXban9wvzj1pGnuU1jBEfByN-1Siow1YQ&usqp=CAU">
+        </center> <br> <br>
+        <h1 id="fam">
+            This is my
+            Family Portfolio Website </h1>
+        <div id="line1" class="line"> </div><br> <br>
+        <center>
+            <h id="slideshow" class="heading"> Slide View </h>
+        </center><br> <br> <br>
+        <div class="container">
+            <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center> <img src="WhatsApp%20Image%202021-01-20%20at%204.07.06%20PM.jpeg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p id="img1"> When I was born! ! </p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center> <img src="WhatsApp%20Image%202021-01-20%20at%205.04.24%20PM.jpeg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p id="img2"> Blossoming nature! </p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center> <img src="WhatsApp%20Image%202021-01-20%20at%204.08.25%20PM.jpeg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p id="img3"> At a restaurant! </p>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="item">
+                        <center> <img src="WhatsApp%20Image%202021-01-20%20at%204.04.47%20PM.jpeg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p id="img4"> In the lap of nature! </p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center> <img src="WhatsApp%20Image%202021-01-20%20at%204.59.19%20PM.jpeg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p id="img5"> Enjoying Diwali! </p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center> <img src="WhatsApp%20Image%202021-01-21%20at%2012.29.21%20PM.jpeg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p id="img6"> It's party time! </p>
+                            </div>
+                        </center>
+                    </div>
+
+                </div>
+                <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                    <li data-target="#mycarousel" data-slide-to="3"></li>
+                    <li data-target="#mycarousel" data-slide-to="4"></li>
+                    <li data-target="#mycarousel" data-slide-to="5"></li>
+                </ol>
+            </div>
+        </div>
+        <center> <br> <br>
+            <hr><br> <br> <br> <br> <br> <br>
+            <h id="grid" class="heading"> Grid View </h> <br> <br>
+            <h id="click"> Click </h><br> <img id="imggif"  src="https://i.pinimg.com/originals/75/ef/c5/75efc5c504cebcaeab51766b5eff9bcf.gif"> <br> <br> <br> <br>
+            <div class="row">
+                <div class="column">
+                    <img id="1img" src="WhatsApp%20Image%202021-01-21%20at%2012.41.35%20PM.jpeg" onclick="alert1()">
+                    <img id="2img" src="WhatsApp%20Image%202021-01-21%20at%2012.50.49%20PM.jpeg" onclick='alert2()'>
+
+
+                </div>
+                <div class="column">
+                    <img id="3img" src="WhatsApp%20Image%202021-01-21%20at%203.44.58%20PM.jpeg" onclick="alert3()">
+                    <img id="4img" src="WhatsApp%20Image%202021-01-21%20at%203.28.06%20PM.jpeg" onclick="alert4()">
+
+                </div>
+                <div class="column">
+                    <img src="WhatsApp%20Image%202021-01-21%20at%203.55.28%20PM.jpeg">
+                    <img src="Capture.PNG">
+                </div>
+                <div class="column">
+                    <img src="1.PNG">
+                    <img src="WhatsApp%20Image%202021-01-21%20at%209.02.48%20PM.jpeg">
+                </div>
+            </div>
+        </center>
+</body></html>
